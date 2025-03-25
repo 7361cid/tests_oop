@@ -4,7 +4,7 @@ on: push
 
 jobs:
   ui-tests:
-    runs-on: ubuntu-20.04-16core
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v2
